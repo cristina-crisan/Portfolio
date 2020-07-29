@@ -1,0 +1,121 @@
+@media screen and (min-width:1025px) and (max-width:1400px) {
+  .content-right h1 {
+    font-size: 40px;
+  }
+  .content {
+    top: 25%;
+  }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+  .content {
+    max-width: 460px;
+    flex-direction: column;
+    top: 25%;
+  }
+  .content-left {
+    width: 100%;
+    justify-content: center;
+    padding: 10px 10px 30px 10px;
+    margin-left: 40px;
+  }
+  .content-right {
+    width: 100%;
+    padding: 10px;
+    margin-left: 40px;
+    border: none;
+    border-top: 1px solid white;
+  }
+  .content-right h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width:768px) {
+body {
+  font-size: 14px;
+}
+
+  .header-logo span {
+    font-size: 20px;
+  }
+  .header-download span {
+    display: none;
+  }
+  .navigation-bullets {
+    display: none;
+  }
+  .page-navigation {
+    top: 50px;
+    width: 100%;
+    text-align: center;
+  }
+  .page-navigation a {
+    display: inline-block;
+  }
+  .page-navigation a i {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    margin-right: 4px;
+  }
+  .page-navigation a span {
+    display: none;
+  }
+  .content {
+    max-width: 600px;
+    flex-direction: column;
+    top: 17%;
+  }
+  .content-left {
+    width: 100%;
+    justify-content: center;
+    padding: 30px;
+  }
+
+  .content-left .skills-icons i {
+    font-size: 50px;
+  }
+
+  .content-right {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-top: 1px solid white;
+  }
+  .content-right h1 {
+    font-size: 20px;
+  }
+
+  .progress {
+    height: 16px;
+  }
+
+  .container-projects {
+    flex-basis: 110px;
+  }
+  .modal-content {
+    max-width: 600px;
+  }
+  .modal-header span {
+    font-size: 20px;
+  }
+
+  .modal-wrapper {
+    margin-top: -20px;
+  }
+
+  .modal-content-wrapper {
+    flex-direction: column;
+  }
+  .image-project-details img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .modal-content-details {
+    border: none;
+    border-top: 1px solid white;
+    padding: 20px;
+  }
+}
